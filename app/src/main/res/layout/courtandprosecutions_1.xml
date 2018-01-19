@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contentpart"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:id="@+id/rltv"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp"
+        android:background="@drawable/header_bg"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/action_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+
+            android:paddingLeft="10dp"
+            android:paddingTop="2dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/navigationdrawer" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            android:text="Court Case Dairy"
+            android:textColor="#ffffff"
+
+            android:textSize="16sp" />
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="22dp"
+            android:src="@drawable/notification" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight=".95">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/table_border"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:textSize="16sp"
+            android:text="Police Station"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".02"
+            android:text=":"/>
+        <TextView
+            android:id="@+id/policestation1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".28"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"
+            android:text="Police Station"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".02"
+            android:text=":"/>
+        <TextView
+            android:id="@+id/policestation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:layout_weight=".28"
+            android:textSize="16sp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:weightSum="1.5">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:textSize="16sp"
+            android:text="FIR NO"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".02"
+            android:text=":"/>
+        <TextView
+            android:id="@+id/firno"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".28"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:layout_marginLeft="10dp"
+            android:textSize="16sp"
+            android:text="Court Case No"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".02"
+            android:text=":"/>
+        <TextView
+            android:id="@+id/courtcaseno"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".28"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"
+            android:text="Adjournment"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".08"
+            android:text=":"/>
+        <TextView
+            android:id="@+id/adjournment"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:background="@drawable/ring"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </TableRow>
+    </LinearLayout>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:textSize="16sp"
+            android:text="CCD Date"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".02"
+            android:text=":"/>
+        <EditText
+            android:id="@+id/ccddate"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight=".28"
+            android:background="@drawable/edit"
+            android:drawableRight="@drawable/calendar_icon"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:textSize="16sp"
+            android:text="Present Status"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".02"
+            android:text=":"/>
+        <TextView
+            android:id="@+id/presentstatus"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".28"
+            android:textColor="@color/colorAccent"
+            android:textSize="16sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".45"
+            android:textSize="16sp"
+            android:text="Is the case Posted for Next Stage"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".05"
+            android:textSize="16sp"
+            android:text=":"/>
+
+        <RadioGroup
+            android:id="@+id/radiogroup"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:weightSum="1"
+            android:orientation="horizontal"
+            android:layout_weight=".5">
+
+            <RadioButton
+                android:id="@+id/yes"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:text="Yes"
+                android:textSize="16sp"
+                android:theme="@style/MyCustomRadioButtontheme"/>
+
+            <RadioButton
+                android:id="@+id/radiono"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:checked="true"
+                android:text="No"
+                android:textSize="16sp"
+                android:theme="@style/MyCustomRadioButtontheme"/>
+        </RadioGroup>
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/selectstage"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        android:weightSum="1">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".3"
+            android:textSize="16sp"
+            android:text="Select stage"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".02"
+            android:text=":"/>
+        <Spinner
+            android:id="@+id/selectstagespinner"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight=".48"
+            android:background="@drawable/spinner"
+            android:drawableRight="@drawable/calendar_icon"
+            android:textSize="16sp" />
+    </TableRow>
+
+    <LinearLayout
+        android:id="@+id/selectno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+     <TableRow
+         android:id="@+id/tables"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginLeft="10dp"
+         android:background="@drawable/table_border1"
+         android:weightSum="4">
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:textSize="16sp"
+             android:gravity="center"
+             android:layout_marginTop="10dp"
+             android:layout_marginBottom="10dp"
+             android:textColor="@color/white"
+             android:layout_gravity="center"
+             android:text="Accused No"/>
+         <View
+             android:layout_width="1dp"
+             android:layout_height="match_parent"
+             android:background="#9fa1a3" />
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:textSize="16sp"
+             android:layout_marginTop="10dp"
+             android:layout_marginBottom="10dp"
+             android:layout_gravity="center"
+             android:gravity="center"
+             android:textColor="@color/white"
+             android:text="Accused Name"/>
+         <View
+             android:layout_width="1dp"
+             android:layout_height="match_parent"
+             android:background="#9fa1a3" />
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:textSize="16sp"
+             android:gravity="center"
+             android:layout_marginTop="10dp"
+             android:layout_marginBottom="10dp"
+             android:textColor="@color/white"
+             android:layout_gravity="center"
+             android:text="Attendence"/>
+         <View
+             android:layout_width="1dp"
+             android:layout_height="match_parent"
+             android:background="#9fa1a3" />
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:textSize="16sp"
+             android:gravity="center"
+             android:layout_marginTop="10dp"
+             android:layout_marginBottom="10dp"
+             android:textColor="@color/white"
+             android:layout_gravity="center"
+             android:text="Are The Case Documents Furnished?"/>
+     </TableRow>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scrollbars="vertical" >
+     <TableLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:id="@+id/table1"
+         android:layout_marginLeft="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginBottom="10dp">
+
+     </TableLayout>
+        </ScrollView>
+
+
+     <TableRow
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginLeft="10dp"
+         android:weightSum="1">
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight=".45"
+             android:textSize="16sp"
+             android:textColor="#135B97"
+             android:text="IO Of the Case Present"/>
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight=".05"
+             android:textSize="16sp"
+             android:text=":"/>
+         <RadioGroup
+             android:id="@+id/ioradiogroup"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:weightSum=".5"
+             android:orientation="horizontal"
+             android:layout_weight=".5">
+
+             <RadioButton
+                 android:id="@+id/ioradiobuttonyes"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight=".25"
+                 android:textSize="16sp"
+                 android:text="Yes"
+                 android:theme="@style/MyCustomRadioButtontheme"/>
+             <RadioButton
+                 android:id="@+id/ioradiobuttonno"
+                 android:layout_width="0dp"
+                 android:layout_height="wrap_content"
+                 android:layout_weight=".25"
+                 android:textSize="16sp"
+                 android:text="No"
+                 android:theme="@style/MyCustomRadioButtontheme"
+                 />
+         </RadioGroup>
+
+     </TableRow>
+     <TableRow
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginLeft="10dp"
+         android:weightSum="1">
+         <EditText
+             android:id="@+id/ioname"
+             android:layout_width="0dp"
+             android:layout_height="40dp"
+             android:layout_weight=".4"
+             android:textSize="16sp"
+             android:textColor="#135B97"
+             android:gravity="center"
+             android:background="@drawable/edit"
+             android:hint="IO Name"
+             />
+         <EditText
+             android:id="@+id/iorank"
+             android:layout_width="0dp"
+             android:layout_height="40dp"
+             android:layout_marginLeft="10dp"
+             android:layout_weight=".4"
+             android:textSize="16sp"
+             android:textColor="#135B97"
+             android:gravity="center"
+             android:background="@drawable/edit"
+             android:hint="Rank" />
+         <TextView
+             android:id="@+id/ioedit"
+             android:layout_width="0dp"
+             android:layout_height="40dp"
+             android:layout_weight=".2"
+             android:textSize="16sp"
+             android:layout_marginLeft="10dp"
+             android:textColor="@color/colorAccent"
+             android:text="@string/editstages"/>
+
+     </TableRow>
+     <TableRow
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginLeft="10dp"
+         android:weightSum="1">
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight=".45"
+             android:textSize="16sp"
+             android:textColor="#135B97"
+             android:text="PP/APP Present"/>
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight=".05"
+             android:textSize="16sp"
+             android:text=":"/>
+         <RadioGroup
+             android:id="@+id/ppappradiogroup"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:weightSum=".5"
+             android:orientation="horizontal"
+             android:layout_weight=".5">
+         <RadioButton
+             android:id="@+id/ppappradiobuttonyes"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight=".25"
+             android:textSize="16sp"
+             android:text="Yes"
+             android:theme="@style/MyCustomRadioButtontheme"
+             />
+         <RadioButton
+             android:id="@+id/ppappradiobuttonno"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight=".25"
+             android:textSize="16sp"
+             android:text="No"
+             android:theme="@style/MyCustomRadioButtontheme"
+             />
+         </RadioGroup>
+     </TableRow>
+     <TableRow
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginLeft="10dp"
+         android:weightSum="1">
+         <EditText
+             android:id="@+id/ppappname"
+             android:layout_width="0dp"
+             android:layout_height="40dp"
+             android:layout_weight=".4"
+             android:textSize="16sp"
+             android:textColor="#135B97"
+             android:gravity="center"
+             android:background="@drawable/edit"
+             android:hint="Name"
+             />
+         <EditText
+             android:id="@+id/ppappdesignation"
+             android:layout_width="0dp"
+             android:layout_height="40dp"
+             android:layout_marginLeft="10dp"
+             android:layout_weight=".4"
+             android:textSize="16sp"
+             android:textColor="#135B97"
+             android:gravity="center"
+             android:background="@drawable/edit"
+             android:hint="Designation" />
+         <TextView
+             android:id="@+id/ppappedit"
+             android:layout_width="0dp"
+             android:layout_height="40dp"
+             android:layout_weight=".2"
+             android:layout_marginLeft="10dp"
+             android:textSize="16sp"
+             android:textColor="@color/colorAccent"
+             android:text="@string/editstages"/>
+
+     </TableRow>
+     <TableRow
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginLeft="10dp"
+         android:weightSum="1">
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight=".45"
+             android:textSize="16sp"
+             android:textColor="#135B97"
+             android:text="Defence Council Present"/>
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight=".05"
+             android:textSize="16sp"
+             android:text=":"/>
+         <RadioGroup
+             android:id="@+id/defenceradiogroup"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:weightSum=".5"
+             android:orientation="horizontal"
+             android:layout_weight=".5">
+
+         <RadioButton
+             android:id="@+id/defenceradiobuttonyes"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight=".25"
+             android:textSize="16sp"
+             android:text="Yes"
+             android:theme="@style/MyCustomRadioButtontheme"
+
+             />
+         <RadioButton
+             android:id="@+id/defenceradiobuttonno"
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight=".25"
+             android:textSize="16sp"
+             android:text="No"
+             android:theme="@style/MyCustomRadioButtontheme"
+             />
+         </RadioGroup>
+     </TableRow>
+     <TableRow
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginLeft="10dp"
+         android:weightSum="1">
+         <EditText
+             android:id="@+id/defencecouncilname"
+             android:layout_width="0dp"
+             android:layout_height="40dp"
+             android:layout_weight=".4"
+             android:textSize="16sp"
+             android:textColor="#135B97"
+             android:gravity="center"
+             android:background="@drawable/edit"
+             android:hint="Name"
+             />
+         <EditText
+             android:id="@+id/defencecouncildesignation"
+             android:layout_width="0dp"
+             android:layout_height="40dp"
+             android:layout_marginLeft="10dp"
+             android:layout_weight=".4"
+             android:textSize="16sp"
+             android:textColor="#135B97"
+             android:gravity="center"
+             android:background="@drawable/edit"
+             android:hint="Designation" />
+         <TextView
+             android:id="@+id/defenceedit"
+             android:layout_width="0dp"
+             android:layout_height="40dp"
+             android:layout_weight=".2"
+             android:layout_marginLeft="10dp"
+             android:textColor="@color/colorAccent"
+             android:textSize="16sp"
+             android:text="@string/editstages"/>
+
+     </TableRow>
+
+     <TableRow
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginBottom="10dp"
+         android:weightSum="1">
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight=".3"
+             android:textSize="16sp"
+             android:textColor="#135B97"
+             android:text="Court Proceedings"/>
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight=".02"
+             android:text=":"/>
+         <EditText
+             android:id="@+id/courtproceeding"
+             android:layout_width="0dp"
+             android:layout_height="80dp"
+             android:layout_weight=".68"
+             android:background="@drawable/edit"
+             android:textSize="16sp" />
+     </TableRow>
+
+     <TableRow
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:layout_marginRight="10dp"
+         android:layout_marginLeft="10dp"
+         android:layout_marginBottom="10dp"
+         android:weightSum="1">
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight=".3"
+             android:textSize="16sp"
+             android:textColor="#135B97"
+             android:text="Next Adjournment"/>
+         <TextView
+             android:layout_width="0dp"
+             android:layout_height="wrap_content"
+             android:layout_weight=".02"
+             android:text=":"/>
+         <EditText
+             android:id="@+id/nextadjournment"
+             android:layout_width="0dp"
+             android:layout_height="40dp"
+             android:layout_weight=".28"
+             android:background="@drawable/edit"
+             android:drawableRight="@drawable/calendar_icon"
+             android:textSize="16sp" />
+     </TableRow>
+ </LinearLayout>
+
+    <TableRow
+        android:id="@+id/witnesstable"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/table_border1"
+        android:weightSum="8">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="Witness Code"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#9fa1a3" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            android:text="Witness Name"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#9fa1a3" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="Witness Type"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#9fa1a3" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="Attended"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#9fa1a3" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="Briefed By PP"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#9fa1a3" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="Examined"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#9fa1a3" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="Supported the Prosecution"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#9fa1a3" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="Given Up"/>
+
+
+    </TableRow>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical" >
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/table2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+        </TableLayout>
+
+    </ScrollView>
+
+    <TableRow
+        android:id="@+id/accusedexamination"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/table_borderforaccused"
+        android:weightSum="7">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="Accuse Code"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#9fa1a3" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:text="Accused Name"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#9fa1a3" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="Presence"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#9fa1a3" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="Petition filled By Defence"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#9fa1a3" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="Warrant"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#9fa1a3" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:text="Notice to Surity"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#9fa1a3" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="Proclamation"/>
+
+    </TableRow>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:scrollbars="vertical" >
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/accusedtable"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp">
+        </TableLayout>
+
+    </ScrollView>
+
+
+    <TableRow
+        android:id="@+id/defencewitnessexamination"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/table_border1"
+        android:weightSum="9">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="Witness Code"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#9fa1a3"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="Witness Name"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#9fa1a3" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="Witness Type"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#9fa1a3" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="Attended"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#9fa1a3" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="Briefing"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#9fa1a3" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:text="Examined"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#9fa1a3" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="Supported the Prosecution"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#9fa1a3" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="Given Up"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/white" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:text="Crossed"/>
+
+
+    </TableRow>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="vertical" >
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/table3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp">
+        </TableLayout>
+
+    </ScrollView>
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight=".05">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:weightSum="1">
+        <Button
+            android:id="@+id/cancelbutton"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight=".3"
+            android:text="cancel"
+            android:textColor="@color/white"
+            android:background="@color/colorAccent"/>
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight=".1"/>
+        <Button
+            android:id="@+id/savebutton"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_weight=".3"
+            android:text="save"
+            android:textColor="@color/white"
+            android:background="#135B97"/>
+
+    </TableRow>
+</LinearLayout>
+  </LinearLayout>
+
+
+

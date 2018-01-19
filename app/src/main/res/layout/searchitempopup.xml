@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginRight="@dimen/margin_right"
+        android:layout_marginTop="@dimen/margin_top"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight=".4"
+                android:textColor="#131416"
+                android:text="@string/selectchargesheetstatus"
+                android:textSize="@dimen/textsize" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:text=":"
+                android:textColor="#135B97"
+                android:textSize="@dimen/textsize" />
+
+            <Spinner
+                android:id="@+id/spinneritem"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:textColor="#131416"
+                android:layout_weight=".5"
+                android:background="@drawable/spinner"></Spinner>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/table1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top"
+            android:visibility="gone"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/dynamictext"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:textColor="#131416"
+                android:layout_weight=".4"
+                android:text="@string/dateoffilling"
+                android:textSize="@dimen/textsize" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:text=":"
+                android:textColor="#135B97"
+                android:textSize="@dimen/textsize" />
+
+            <EditText
+                android:id="@+id/dateoffilling"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight=".5"
+                android:textColor="#131416"
+                android:background="@drawable/edit"
+                android:drawableRight="@drawable/calendar_icon"
+                android:focusable="false">
+
+            </EditText>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/table4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top"
+            android:visibility="gone"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight=".4"
+                android:text="Case Type *"
+                android:textColor="#131416"
+                android:textSize="@dimen/textsize" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight=".1"
+                android:text=":"
+                android:textColor="#135B97"
+                android:textSize="@dimen/textsize" />
+
+            <Spinner
+                android:id="@+id/casetype"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight=".5"
+                android:textColor="#131416"
+                android:background="@drawable/spinner"></Spinner>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/table2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_top"
+            android:visibility="gone"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/ddr"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".4"
+                android:textColor="#131416"
+                android:text="@string/ddr"
+                android:textSize="@dimen/textsize" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:text=":"
+                android:textColor="#135B97"
+                android:textSize="@dimen/textsize" />
+
+            <EditText
+                android:id="@+id/ddrinward"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:textColor="#131416"
+                android:layout_weight=".5"
+                android:background="@drawable/edit"></EditText>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/table3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="@dimen/margin_top"
+            android:visibility="gone"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".4"
+                android:text="@string/remarks"
+                android:textColor="#131416"
+                android:textSize="@dimen/textsize" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1"
+                android:text=":"
+                android:textColor="#135B97"
+                android:textSize="@dimen/textsize" />
+
+            <EditText
+
+                android:id="@+id/remarks"
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:theme="@style/MyEditText"
+                android:layout_weight=".5"
+                android:gravity="top"
+                android:background="@drawable/edit"
+                android:textColor="#131416"></EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="@dimen/margin_top"
+            android:weightSum="1">
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".1" />
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:theme="@style/MyButton"
+                android:text="cancel"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/textsize" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".2" />
+            <Button
+                android:id="@+id/submit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".3"
+                android:theme="@style/MyButton"
+                android:textSize="@dimen/textsize"
+                android:text="Submit"
+                android:textColor="#ffffff"
+                android:visibility="gone" />
+
+
+        </TableRow>
+        <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:id="@+id/fab"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="end|bottom"-->
+        <!--android:src="@drawable/ring"-->
+        <!--android:layout_margin="16dp" />-->
+
+    </LinearLayout>
+
+</LinearLayout>
